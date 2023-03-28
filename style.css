@@ -1,0 +1,110 @@
+
+.mycart {
+    height: 48px;
+    width: 120px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    background-color: rgb(5, 224, 224);
+    border-radius: 6px;
+    border-color: rgb(4, 86, 118);
+    ;
+}
+.logoimage img{
+    height: 120px;
+}
+.searchbox {
+    width: 385px;
+    height: 39px;
+    font-size: 18px;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 10px;
+    border-color: rgb(218, 216, 216);
+    border-style: solid;
+    box-shadow: inset 0px 0px 5px 
+    rgba(0, 0, 5, 0.15);
+}
+
+.searchbox::placeholder {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 3%;
+}
+.searchicon1 {
+    height: 45px;
+    width: 50px;
+    background-color: white;
+    border-color: rgb(210, 209, 209);
+    border-style: solid;
+    border-radius: 5px 0px 0px 5px;
+    
+}
+.search-icon {
+    height: 24px;
+    size: 50px;
+}
+
+.search {
+    height: 45px;
+    width: 130px;
+    background-color: rgb(91, 91, 255);
+    color: white;
+    border-style: none;
+    border-radius: 0px 6px 6px 0px;
+    font-weight: bold;
+}
+.search::placeholder {
+    font-family: cali;
+}
+.searchbar {
+    display: flex;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-shrink: 0;
+    ;
+}
+
+
+.line1 {
+    width: 100%;
+    height: 22px;
+    background-color: rgb(230, 230, 230);
+    ;
+}
+
+.line2 {
+    width: 80%;
+    height: 10px;
+    background-color: rgb(240, 238, 238);
+    margin-top: 1%;
+    flex: 1;
+    border-radius: 50px;
+}
+
+.line3 {
+    width: 50%;
+    height: 10px;
+    background-color: rgb(240, 240, 240);
+    margin-top: 1%;
+    flex: 2;
+    border-radius: 50px;
+}
+
+.shop {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.sneaksrow1 {
+    display: flex;
+    justify-content: center;
+    ;
+}
+.sneaksrow1 img{
+    width: 80%;
+    ;
+}
